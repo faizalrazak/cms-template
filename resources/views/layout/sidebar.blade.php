@@ -32,58 +32,22 @@
       idebar.less -->
       <ul class="sidebar-menu " data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        
-        <li class="treeview menu-open ">
-          <a href="">
-            <i class="fa fa-dashboard"></i> <span class="text-info">Dashboard</span>
-          </a>
-        </li>
 
         <li class="treeview">
-          <a href="">
+          <a href="{{route('users')}}">
             <i class="fa fa-files-o"></i><span class="text-info">User Management</span>
           </a>
         </li>
 
         <li class="treeview">
-          <a href="">
-            <i class="fa fa-share"></i> <span class="text-info">Order Placement Management</span>
+          <a href="{{route('campaigns')}}">
+            <i class="fa fa-share"></i> <span class="text-info">Campaign Management</span>
           </a>
         </li>
 
         <li class="treeview">
-          <a href="">
-            <i class="fa fa-share"></i> <span class="text-info">Delivery Management</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="">
-            <i class="fa fa-share"></i> <span class="text-info">Invoice Management</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="">
-            <i class="fa fa-share"></i> <span class="text-info">Payment Management</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="">
-            <i class="fa fa-pie-chart"></i><span class="text-info">Service Management</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="">
-            <i class="fa fa-calendar"></i> <span class="text-info">News & Promotion</span>
-          </a>
-        </li>
-
-        <li class="treeview">
-          <a href="">
-            <i class="fa fa-calendar"></i> <span class="text-info">Status</span>
+          <a href="{{route('news')}}">
+            <i class="fa fa-share"></i> <span class="text-info">News Management</span>
           </a>
         </li>
         </ul>
